@@ -22,7 +22,7 @@ async def async_receive(reader):
 
 async def main():
     # ouvrir une connexion vers un serveur
-    reader, writer = await asyncio.open_connection(host="localhost", port=4444)
+    reader, writer = await asyncio.open_connection(host="localhost", port=8080)
     while True:
       tasks = [ async_input(writer), async_receive(reader) ]
       await asyncio.gather(*tasks)

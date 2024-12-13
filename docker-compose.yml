@@ -7,6 +7,6 @@ services:
     environment:
       CHAT_PORT : 4444
     ports: 
-      - "4444:4444"
+      - "8080:4444"
     
-
+  

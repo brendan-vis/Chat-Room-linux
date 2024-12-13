@@ -20,4 +20,4 @@ services:
 
 Si je veux lancer le serveur sur un port en particulier, j'utilise ce code en définissant le port souhaité(ici en gras):
 
-docker run -p  4444:**1111** -e CALC_PORT=**1111** woof
+docker run -p  4444:**1111** -e CHAT_PORT=**1111** woof
