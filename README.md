@@ -1,4 +1,4 @@
-# Calculatrice
+# Chat-Room
 
 Pour lancer le serveur je peux uitiliser la commande ci-dessous:
 
